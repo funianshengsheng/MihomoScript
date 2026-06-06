@@ -1,4 +1,4 @@
-// mihomoScript.js 覆写脚本
+// MihomoScript.js 覆写脚本
 
 // ============================================================
 // 节点名称过滤：排除订阅信息、广告、无效节点
@@ -669,7 +669,7 @@ function validateInput(rawProxies, proxyProviders) {
   var hasProviders = isPlainObject(proxyProviders) && Object.keys(proxyProviders).length > 0;
 
   if (!hasProxies && !hasProviders) {
-    throw new Error("配置文件中未找到任何节点");
+    throw new Error("配置文件中未找到任何节点！");
   }
 
   // 仅有节点但全是 direct/reject 占位符时，视为无效
