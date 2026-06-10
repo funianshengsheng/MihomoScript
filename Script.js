@@ -272,6 +272,8 @@ const BASE_CONFIG = {
     "dns.cloudflare.com": ["1.1.1.1", "1.0.0.1"],
     "dns.google": ["8.8.8.8", "8.8.4.4"],
     "services.googleapis.cn": ["services.googleapis.com"],
+    "google.cn":   ["google.com"],
+    "cn.bing.com": ["global.bing.com"],
     "+.mcdn.bilivideo.com": ["0.0.0.0"],
     "+.mcdn.bilivideo.cn": ["0.0.0.0"],
   },
